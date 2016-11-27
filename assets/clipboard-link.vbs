@@ -13,7 +13,7 @@ CLIP_EXE = "%APPDATA%\clipboard-link\clip.exe"
 If WScript.Arguments.Count = 0 Then
 ' **************** Install shortcut to Send To
 
-	MsgBox "Clipboard-Link is not installed -- " & vbCrLf & "run setup from S:\OpenSource\ClipLink\ to install", vbOkOnly, "Clipboard-Link"
+	MsgBox "Clipboard-Link is not installed -- " & vbCrLf & "run setup from %~dp0 to install", vbOkOnly, "Clipboard-Link"
 
 	WScript.Quit
 ' **************** Install shortcut to Send To
