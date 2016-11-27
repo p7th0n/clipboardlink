@@ -5,7 +5,7 @@ echo		Installing Clipboard-Link
 echo.
 if not exist "%APPDATA%\clipboard-link\" mkdir "%APPDATA%\clipboard-link\"
 copy %SOURCE_PATH%\assets\clipboard-link.vbs "%APPDATA%\clipboard-link\" /y
-cscript %SOURCE_PATH%\create_link_file.vbs
+cscript %SOURCE_PATH%\create_sendto_link_file.vbs
 
 for %%X in (clip.exe) do (set FOUND=%%~$PATH:X)
 if defined FOUND GOTO CLIP_FOUND 
