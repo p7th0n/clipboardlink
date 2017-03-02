@@ -2,7 +2,7 @@
 
 ### What is Cliplink for? ###
 
-* I developed Clipboard-Link from the end user need.   It is a reliable method to create links to files and folders on network drives. 
+* I developed Clipboard-Link from end user need.   It is a reliable method to create links to files and folders on Windows network drives. 
 * Spaces and special characters break Outlook's ability to create hyperlinks to network files.  Clipboard-Link eliminates that problem.
 
 ### How do I get set up? ###
@@ -36,7 +36,7 @@
                       ^ Name ^                               ^   link  ^
 ```
 
-WARNING: **Cliplink will not create links for executables [files ending with .EXE, .COM, .BAT, etc.].
+NOTE: **Cliplink will not create links for executables [files ending with .EXE, .COM, .BAT, etc.].
 
 ### Who am I? ###
 
